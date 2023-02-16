@@ -1,0 +1,42 @@
+.input-button, .input-transparent-button {
+    display: flex;text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    appearance: none;
+    -webkit-appearance: none;
+
+    padding: 6px 5%;
+    margin: 5px;
+    min-width: 10rem;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    font-size: 19px;
+        
+}
+
+.input-button{
+    color: #fff;
+    background-color: #86a59c;
+    border: none;
+    
+}
+
+.input-transparent-button {
+    color: #000;
+    background-color: transparent;
+    border: .5px solid rgb(32, 32, 32);
+    
+    
+}
+
+.small-button {
+    min-width: auto;
+    font-size: 0.6rem;
+    font-weight: 200;
+    padding: 7px 1.4%;
+}

@@ -1,0 +1,58 @@
+.containerHeader{
+    background-color: #fff;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 65px; 
+    margin-left: 0;
+}
+
+.containerLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 75%;
+    height: 100%;
+}
+
+.containerRight{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 25px;
+    height: 100%;
+}
+
+.containerLogo{
+    width: 150px;
+    height: 70px;
+    margin: 0;
+}
+
+.imageLogo{
+    object-fit: contain;
+    width: 100px;
+    height: 70px;
+}
+
+.listItems{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.itemList{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.linkItem{
+    text-decoration: none;
+    font-family: "Source Sans Pro";
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+}
