@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes } from "react";
+import React, { ButtonHTMLAttributes } from "react";
 import "./style.css";
 
 type ButtonType = ButtonHTMLAttributes<HTMLButtonElement> & {
