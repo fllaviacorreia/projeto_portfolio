@@ -27,15 +27,15 @@
 }
 
 .containerLogo{
-    width: 150px;
-    height: 70px;
-    margin: 0;
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
 }
 
 .imageLogo{
     object-fit: contain;
     width: 100px;
-    height: 70px;
+    height: 50px;
 }
 
 .listItems{

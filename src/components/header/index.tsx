@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "@/components/elements/button";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo.svg";
 import "./style.css";
 
 export default function Header() {
@@ -16,31 +16,36 @@ export default function Header() {
 				<div className="containerList">
 					<ul className="listItems">
 						<li className="itemList">
-							<a className="linkItem" href="#overview">
-                Overview
+							<a className="linkItem" href="#home">
+                Início
 							</a>
 						</li>
 						<li className="itemList">
-							<a className="linkItem" href="#courses">
-                Cursos
+							<a className="linkItem" href="#about">
+                Sobre
 							</a>
 						</li>
 
 						<li className="itemList">
-							<a className="linkItem" href="#aboutus">
-                Sobre nós
+							<a className="linkItem" href="#services">
+                Serviços
 							</a>
 						</li>
 						<li className="itemList">
-							<a className="linkItem" href="#contact">
-                Contate-nos
+							<a className="linkItem" href="#projects">
+                Projetos
+							</a>
+						</li>
+						<li className="itemList">
+							<a className="linkItem" href="#team">
+                Equipe
 							</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<div className="containerRight">
-				<Button title="Fale conosco" typeButton="input-transparent-button"/>
+				<Button title="Fale conosco" typeButton="input-transparent-button" />
 			</div>
 		</div>
 	);
