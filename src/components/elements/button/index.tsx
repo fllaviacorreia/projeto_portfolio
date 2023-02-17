@@ -7,13 +7,13 @@ type ButtonType = ButtonHTMLAttributes<HTMLButtonElement> & {
 };
 
 export default function Button({
-	title,
-	typeButton,
-	...rest
+  title,
+  typeButton,
+  ...rest
 }: ButtonType) {
-	return (
-		<button className={typeButton} {...rest}>
-			{title}
-		</button>
-	);
+  return (
+    <button className={typeButton} {...rest}>
+      {title}
+    </button>
+  );
 }
