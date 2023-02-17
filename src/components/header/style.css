@@ -1,58 +1,64 @@
-.containerHeader{
-    background-color: #fff;
-    color: white;
+.containerHeader, 
+.containerLeft, 
+.containerRight, 
+.listItems{
     display: flex;
     flex-direction: row;
-    width: 95%;
-    height: 65px; 
-    margin-left: 0;
+    height: 70px;
+}
+
+.containerHeader{
+    width: 100%;
 }
 
 .containerLeft{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    width: 75%;
+    width: 70%;
+    height: 100%;
+    margin-left: 50px;
+    align-items: center;
+}
+
+
+.containerRight{  
+    width: 30%; 
+    margin-right: 25px;
+    justify-content: flex-end;
+}
+
+.containerLogo, .containerList{
     height: 100%;
 }
 
-.containerRight{
-    width: 30%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 25px;
-    height: 100%;
+.containerList{
+    width: 70%;
 }
 
 .containerLogo{
-    width: 100px;
-    height: 50px;
+    width: 50px;
     margin-top: 10px;
 }
 
 .imageLogo{
-    object-fit: contain;
-    width: 100px;
-    height: 50px;
+    object-fit: cover;
+    height: 40px;
+    margin-top: 15px;
 }
 
 .listItems{
-    display: flex;
-    flex-direction: row;
+    width: 100%;
     list-style-type: none;
+    padding: 0;
+    justify-content: flex-start;
 }
 
 .itemList{
-    padding-left: 12px;
-    padding-right: 12px;
+    padding: 12px;
+    width: 100px;
 }
 
 .linkItem{
     text-decoration: none;
-    font-family: "Source Sans Pro";
-    font-weight: 100;
-    font-size: 20px;
-    color: black;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 17px;
 }

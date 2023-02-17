@@ -44,7 +44,7 @@ export default function Header() {
         </div>
       </div>
       <div className="containerRight">
-        <Button title="Fale conosco" typeButton="input-transparent-button" />
+        <Button title="Contate-nos" typeButton="input-button" onClick={ () => alert("Hello")} />
       </div>
     </div>
   );

@@ -7,29 +7,36 @@
     -webkit-appearance: none;
 
     padding: 6px 5%;
-    margin: 5px;
+    margin: 17px;
     min-width: 10rem;
     border-radius: 8px;
 
     cursor: pointer;
 
-    font-family: "Source Sans Pro";
-    font-weight: 400;
-    font-size: 19px;
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 15px;
         
 }
 
 .input-button{
     color: #fff;
-    background-color: #86a59c;
+    background-image: linear-gradient(to right, #8A2387 0.78%, #E94057 50.9%, #F27121 100%);
     border: none;
     
 }
 
+
+.input-button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+ 
 .input-transparent-button {
     color: #000;
     background-color: transparent;
-    border: .5px solid rgb(32, 32, 32);
+    border: .5px solid #F27121;
     
     
 }
