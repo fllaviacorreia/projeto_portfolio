@@ -1,0 +1,47 @@
+.containerFooter, .containerTextFooter, .containerSocialMediaFooterList{
+    display: flex;
+    flex-direction: row;    
+    height: 70px;
+}
+
+.containerFooter{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to right, #8A2387 0.78%, #E94057 50.9%, #F27121 100%);
+}
+
+.containerTextFooter, .containerSocialMediaFooterList{
+    margin: 20px;     
+    padding: 20px;   
+    width: 50%;
+    align-items: center;
+}
+
+.containerTextFooter{
+
+    justify-content: flex-start;
+}
+
+.containerSocialMediaFooterList{
+    justify-content: flex-end;
+    
+}
+
+.socialMediaFooterItem{
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.textFooter{
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+
+.heartFooter{
+    font-size: 18px;
+    color: red;
+}
