@@ -13,19 +13,19 @@
 .containerTextHome{
     flex-direction: column;
     width: 50%;
-    margin-left: 25px;
-
+    margin-left: 70px;
 }
 
 .containerTitleHome{
     justify-content: flex-start; 
-     padding: 5px; 
-     flex-direction: column;
+    padding: 5px; 
+    flex-direction: column;
 
 }
 
 .containerText{
-width: 95%;
+    width: 95%;
+    margin-left: 30px;
 }
 
 .containerImageHome, .figureImageHome{
@@ -36,7 +36,7 @@ width: 95%;
 
 .containerImageHome{
     width: 35%;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .figureImageHome{
