@@ -6,6 +6,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+
+*{
+  text-decoration: none;
+  font-family: "Inter";
+}
+
+a{
+  color: #313638;
 }
 
 code {
