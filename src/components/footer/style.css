@@ -1,0 +1,47 @@
+.containerFooter, .containerTextFooter, .containerSocialMediaFooterList{
+    display: flex;
+    flex-direction: row;    
+    height: 70px;
+}
+
+.containerFooter{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(242, 113, 33, 0.9) 0%, rgba(233, 64, 87, 0.9) 54.17%, rgba(138, 35, 135, 0.9) 100%);
+}
+
+.containerTextFooter, .containerSocialMediaFooterList{
+    margin: 20px;     
+    padding: 20px;   
+    width: 50%;
+    align-items: center;
+}
+
+.containerTextFooter{
+
+    justify-content: flex-start;
+}
+
+.containerSocialMediaFooterList{
+    justify-content: flex-end;
+    
+}
+
+.socialMediaFooterItem{
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.textFooter{
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+
+.heartFooter{
+    font-size: 18px;
+    color: red;
+}
