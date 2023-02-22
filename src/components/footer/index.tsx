@@ -22,7 +22,7 @@ export default function Footer(){
           <AiOutlineWhatsApp color="#fff"/>
         </a> 
         <a href="#" className="socialMediaFooterItem"> 
-          <AiFillInstagram color="#fff" width={50}/>
+          <AiFillInstagram color="#fff"/>
         </a>
         <a href="#" className="socialMediaFooterItem"> 
           <AiFillLinkedin color="#fff"/> 
