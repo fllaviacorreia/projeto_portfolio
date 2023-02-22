@@ -1,0 +1,81 @@
+.containerHome, .containerTextHome, .containerTitleHome,
+.containerText{
+    display: flex;
+}
+
+.containerHome{    
+    height: 65vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerTextHome{
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25px;
+
+}
+
+.containerTitleHome{
+    justify-content: flex-start; 
+     padding: 5px; 
+     flex-direction: column;
+
+}
+
+.containerText{
+width: 95%;
+}
+
+.containerImageHome, .figureImageHome{
+    border-radius: 20px;
+    height: 70%;
+    align-items: center;
+}
+
+.containerImageHome{
+    width: 35%;
+    margin-right: 200px;
+}
+
+.figureImageHome{
+    width: 90%;
+    font-size: 10px;
+}
+
+.titleWelcome, .titleFreelas{
+    background: linear-gradient(70.15deg, #8A2387 0%, #E94057 30.08%, #F27121 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+
+.titleWelcome{
+    height: 30px;
+    margin: 50px 0 0 15px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.titleFreelas{
+    height: 70px;
+    margin: 5px 0 0 20px;
+    font-size: 60px;
+    line-height: 73px;
+    font-weight: 800;
+}
+
+.textHome{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.imgHome{
+    width: 100%;
+    border-radius: 30px;
+}
