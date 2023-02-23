@@ -4,7 +4,7 @@
 }
 
 .containerHome{    
-    height: 65vh;
+    height: 90vh;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +18,7 @@
 
 .containerTitleHome{
     justify-content: flex-start; 
-    padding: 5px; 
+    /* padding: 5px;  */
     flex-direction: column;
 
 }
@@ -54,23 +54,32 @@
 .titleWelcome{
     height: 30px;
     margin: 50px 0 0 15px;
+    padding: 0;
     font-size: 18px;
     line-height: 30px;
-    font-weight: 600;
+    font-weight: bold;
+    width: 196px;
+    height: 46px;
+    left: 86px;
+    top: 116px;
 }
 
 .titleFreelas{
-    height: 70px;
-    margin: 5px 0 0 20px;
+    width: 391px;
+    height: 90px;
+    left: 117px;
+    top: 148px;
+    margin-left: 20px;
+    padding: 0;
     font-size: 60px;
     line-height: 73px;
-    font-weight: 800;
+    font-weight: bolder;
 }
 
 .textHome{
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 30px;
     text-align: justify;
 }

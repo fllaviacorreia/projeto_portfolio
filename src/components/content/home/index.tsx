@@ -6,12 +6,12 @@ import "./style.css";
 
 export default function Home(){
   return (
-    <div id="home" className="containerHome">
+    <section id="home" className="containerHome">
       <div className="containerTextHome">
         <div className="containerTitleHome">
          
-          <h5 className="titleWelcome">Welcome to</h5>
-          <h1 className="titleFreelas">{"</Freelas>"}</h1>
+          <span className="titleWelcome">Welcome to</span>
+          <span className="titleFreelas">{"</Freelas>"}</span>
           
         </div>
         <div className="containerText">
@@ -31,6 +31,6 @@ export default function Home(){
           </figcaption>
         </figure>
       </div>
-    </div>
+    </section>
   );
 }
