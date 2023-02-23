@@ -1,3 +1,8 @@
+![home page](https://user-images.githubusercontent.com/48125785/220800557-628533e9-f21f-4641-87bf-b16f64e7cf1e.png)
+
+## Portfólio Freelas
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
